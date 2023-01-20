@@ -12086,3 +12086,87 @@ Would you like to continue?
 [2023.01.20-16.38.26:853][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 43.5 sec)
 [2023.01.20-16.38.26:864][272]AssetCheck: New page: Asset Save: AC_TrapLineTrace
 [2023.01.20-16.38.26:864][272]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace.AC_TrapLineTrace
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: ================================================
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Total job queries 175, among them cache hits 7 (4.00%)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Tracking 160 distinct input hashes that result in 126 distinct outputs (78.75%)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: RAM used: 1.27 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.15%
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Shaders Compiled: 160
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Jobs assigned 164, completed 160 (97.56%)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Average time worker was idle: 448.00 s
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Time job spent in pending queue: average 8.90 s, longest 35.23 s
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Job execution time: average 5.11 s, max 18.12 s
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Job life time (pending + execution): average 14.21 s, max 36.25
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 75.96 s
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Jobs were issued in 119 batches (only local compilation was used), average 1.38 jobs/batch
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Average processing rate: 2.11 jobs/sec
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Total thread time: 208.36 s
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Total thread preprocess time: 12.67 s
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Percentage time preprocessing: 6.08%
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Effective parallelization: 2.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.17 sec, max 2.17 sec, min 2.17 sec)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.04 sec, max 2.04 sec, min 2.04 sec)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.85 sec, max 2.31 sec, min 1.39 sec)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.78 sec, max 1.78 sec, min 1.78 sec)
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.20-16.40.01:469][221]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.09% of total time (compiled   24 times, average 1.66 sec, max 5.36 sec, min 0.95 sec)
+[2023.01.20-16.40.01:470][221]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.78% of total time (compiled   24 times, average 1.46 sec, max 5.21 sec, min 1.10 sec)
+[2023.01.20-16.40.01:470][221]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 15.11% of total time (compiled   17 times, average 1.85 sec, max 2.31 sec, min 1.39 sec)
+[2023.01.20-16.40.01:470][221]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.87% of total time (compiled   13 times, average 1.26 sec, max 2.31 sec, min 0.96 sec)
+[2023.01.20-16.40.01:470][221]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.88% of total time (compiled   13 times, average 0.94 sec, max 2.82 sec, min 0.62 sec)
+[2023.01.20-16.40.01:470][221]LogShaderCompilers: Display: ================================================
+[2023.01.20-16.40.03:915][331]LogViewport: Scene viewport resized to 901x807, mode Windowed.
+[2023.01.20-16.40.11:426][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.40.11:503][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Le_Labyrinthe/Blueprints/BP_Torche" FILE="D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset" SILENT=true
+[2023.01.20-16.40.11:507][761]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Torche
+[2023.01.20-16.40.11:508][761]LogSavePackage: Moving 'D:/Labyrinthe/Saved/BP_Torche4C02002946C9EB7AC5772D9BF5294110.tmp' to 'D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset'
+[2023.01.20-16.40.11:523][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 43.6 sec)
+[2023.01.20-16.40.11:535][761]AssetCheck: New page: Asset Save: BP_Torche
+[2023.01.20-16.40.11:535][761]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.40.35:287][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.40.35:363][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Le_Labyrinthe/Blueprints/BP_Torche" FILE="D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset" SILENT=true
+[2023.01.20-16.40.35:367][128]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/BP_Torche
+[2023.01.20-16.40.35:368][128]LogSavePackage: Moving 'D:/Labyrinthe/Saved/BP_Torche8F1771604BE55BE5133FA4994942359E.tmp' to 'D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset'
+[2023.01.20-16.40.35:384][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 43.7 sec)
+[2023.01.20-16.40.35:394][128]AssetCheck: New page: Asset Save: BP_Torche
+[2023.01.20-16.40.35:394][128]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/BP_Torche.BP_Torche
+[2023.01.20-16.40.37:389][227]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.40.37:500][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Le_Labyrinthe/Maps/LabyrintheMap" FILE="D:/Labyrinthe/Content/Le_Labyrinthe/Maps/LabyrintheMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.20-16.40.37:644][227]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2023.01.20-16.40.37:665][227]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Maps/LabyrintheMap
+[2023.01.20-16.40.37:667][227]LogSavePackage: Moving 'D:/Labyrinthe/Saved/LabyrintheMap84DFC54C438D74DC3E74F7B6CB37029E.tmp' to 'D:/Labyrinthe/Content/Le_Labyrinthe/Maps/LabyrintheMap.umap'
+[2023.01.20-16.40.37:679][227]LogFileHelpers: Saving map 'LabyrintheMap' took 0.180
+[2023.01.20-16.40.37:702][227]LogFileHelpers: InternalPromptForCheckoutAndSave took 312 ms (total: 44.0 sec)
+[2023.01.20-16.40.37:719][227]AssetCheck: New page: Asset Save: LabyrintheMap
+[2023.01.20-16.40.37:719][227]LogContentValidation: Display: Validating /Script/Engine.World /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap
+[2023.01.20-16.40.58:952][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.40.59:021][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace" FILE="D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace.uasset" SILENT=true
+[2023.01.20-16.40.59:027][817]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace
+[2023.01.20-16.40.59:028][817]LogSavePackage: Moving 'D:/Labyrinthe/Saved/AC_TrapLineTrace5E4C8F7A4A18A48C7FC880BBC3C0ADDC.tmp' to 'D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace.uasset'
+[2023.01.20-16.40.59:044][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 44.1 sec)
+[2023.01.20-16.40.59:054][817]AssetCheck: New page: Asset Save: AC_TrapLineTrace
+[2023.01.20-16.40.59:054][817]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace.AC_TrapLineTrace
+[2023.01.20-16.41.33:525][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.41.33:591][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace" FILE="D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.uasset" SILENT=true
+[2023.01.20-16.41.33:604][788]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace
+[2023.01.20-16.41.33:605][788]LogSavePackage: Moving 'D:/Labyrinthe/Saved/AC_ViewLineTrace30D02BE74673AC64865D3195AAE12496.tmp' to 'D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.uasset'
+[2023.01.20-16.41.33:624][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 44.2 sec)
+[2023.01.20-16.41.33:637][788]AssetCheck: New page: Asset Save: AC_ViewLineTrace
+[2023.01.20-16.41.33:637][788]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.AC_ViewLineTrace
+[2023.01.20-16.43.11:243][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.43.11:322][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace" FILE="D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.uasset" SILENT=true
+[2023.01.20-16.43.11:337][145]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace
+[2023.01.20-16.43.11:338][145]LogSavePackage: Moving 'D:/Labyrinthe/Saved/AC_ViewLineTrace82390D574B98BFF5B10B758F68874AA3.tmp' to 'D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.uasset'
+[2023.01.20-16.43.11:356][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 44.3 sec)
+[2023.01.20-16.43.11:368][145]AssetCheck: New page: Asset Save: AC_ViewLineTrace
+[2023.01.20-16.43.11:368][145]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.AC_ViewLineTrace
+[2023.01.20-16.43.45:024][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-16.43.45:096][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace" FILE="D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.uasset" SILENT=true
+[2023.01.20-16.43.45:110][124]LogSavePackage: Moving output files for package: /Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace
+[2023.01.20-16.43.45:111][124]LogSavePackage: Moving 'D:/Labyrinthe/Saved/AC_ViewLineTraceD253319048DB7D76BD58F6B56EC1A26C.tmp' to 'D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.uasset'
+[2023.01.20-16.43.45:129][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 44.4 sec)
+[2023.01.20-16.43.45:142][124]AssetCheck: New page: Asset Save: AC_ViewLineTrace
+[2023.01.20-16.43.45:142][124]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.AC_ViewLineTrace
