@@ -12170,3 +12170,10 @@ Would you like to continue?
 [2023.01.20-16.43.45:129][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 44.4 sec)
 [2023.01.20-16.43.45:142][124]AssetCheck: New page: Asset Save: AC_ViewLineTrace
 [2023.01.20-16.43.45:142][124]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.AC_ViewLineTrace
+[2023.01.20-16.50.37:915][667]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2023.01.20-16.50.37:920][667]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Le_Labyrinthe/Maps/LabyrintheMap' took 0.112
+[2023.01.20-16.50.37:920][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace] ([2] browsable assets)...
+[2023.01.20-16.50.37:920][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace]
+[2023.01.20-16.50.37:926][667]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace_Auto2
+[2023.01.20-16.50.37:926][667]LogSavePackage: Moving 'D:/Labyrinthe/Saved/AC_TrapLineTrace_Auto25C18CE984672188CD887F0A20E3C377D.tmp' to 'D:/Labyrinthe/Saved/Autosaves/Game/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace_Auto2.uasset'
+[2023.01.20-16.50.37:927][667]LogFileHelpers: Auto-saving content packages took 0.007
