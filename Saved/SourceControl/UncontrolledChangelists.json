@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Labyrinthe/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Maps/LabyrintheMap.umap",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Labyrinthe/PC_Labyrinthe.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Labyrinthe/GM_Labyrinthe.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Labyrinthe/GI_Labyrinthe.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Rules/PC_Rules.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Inputs/IMC_Moves.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Inputs/IA_Move.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Inputs/IA_Jump.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Inputs/IMC_Mouse.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Inputs/IA_Look.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_FirstPersonCharacter.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_Trap.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_TrapLineTrace.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_TrapCube.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/CubeTrap.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_CubeTrap.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/Components/AC_ViewLineTrace.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Inputs/IA_See.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Inputs/IMC_Vision.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset",
+				"D:/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Passage.uasset"
+			]
+		}
+	]
+}
